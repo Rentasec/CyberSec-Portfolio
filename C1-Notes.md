@@ -1,66 +1,176 @@
-# CyberSec-C1-Notes
-*Notes for course 1 of the google cybersecurity course*
+# CyberSec Course 1 — Condensed Notes
+*Google Cybersecurity Certificate, Course 1*
 
-As you’ve learned, cybersecurity (also known as security) is the practice of ensuring confidentiality, integrity, and availability of information by protecting networks, devices, people, and data from unauthorized access or criminal exploitation. In this reading, you’ll be introduced to some key terms used in the cybersecurity profession. Then, you’ll be provided with a resource that’s useful for staying informed about changes to cybersecurity terminology.
+---
 
-## Key cybersecurity terms and concepts
+## 1. Core Concepts & Key Terms
 
-There are many terms and concepts that are important for security professionals to know. Being familiar with them can help you better identify the threats that can harm organizations and people alike. A security analyst or cybersecurity analyst focuses on monitoring networks for breaches. They also help develop strategies to secure an organization and research information technology (IT) security trends to remain alert and informed about potential threats. Additionally, an analyst works to prevent incidents. In order for analysts to effectively do these types of tasks, they need to develop knowledge of the following key concepts. 
+**Cybersecurity** — Protecting networks, devices, people, and data from unauthorized access to ensure **confidentiality, integrity, and availability (CIA)**.
 
-**Compliance** is the process of adhering to internal standards and external regulations and enables organizations to avoid fines and security breaches.
+| Term | Definition |
+|---|---|
+| **Compliance** | Adhering to internal standards and external regulations to avoid fines/breaches |
+| **Security Framework** | Guidelines for building plans to mitigate risks and threats |
+| **Security Controls** | Safeguards that reduce specific security risks; used alongside frameworks |
+| **Security Posture** | An org's ability to defend critical assets and adapt to change |
+| **Threat Actor** | Any person/group posing a security risk |
+| **Internal Threat** | Current/former employee, vendor, or partner who poses a risk (intentional or accidental) |
+| **Network Security** | Protecting an org's network infrastructure from unauthorized access |
+| **Cloud Security** | Ensuring cloud-stored assets are correctly configured and access-controlled |
 
-**Security frameworks** are guidelines used for building plans to help mitigate risks and threats to data and privacy.
+---
 
-**Security controls** are safeguards designed to reduce specific security risks. They are used with security frameworks to establish a strong security posture.
+## 2. Analyst Skills
 
-**Security posture** is an organization’s ability to manage its defense of critical assets and data and react to change. A strong security posture leads to lower risk for the organization.
+### Transferable Skills
+- **Communication** — Relay technical info clearly to both technical and non-technical audiences
+- **Problem-solving** — Identify attack patterns and find efficient solutions
+- **Time management** — Prioritize urgent tasks to minimize damage
+- **Growth mindset** — Stay current; tech evolves constantly
+- **Diverse perspectives** — Collaboration leads to better security outcomes
 
-A **threat actor**, or **malicious attacker**, is any person or group who presents a security risk. This risk can relate to computers, applications, networks, and data.
+### Technical Skills
+- **Programming** (Python, SQL) — Automate tasks, query databases, analyze patterns
+- **SIEM Tools** — Collect/analyze log data; monitor and alert on critical activity
+- **IDS (Intrusion Detection Systems)** — Monitor network activity for intrusions
+- **Threat landscape knowledge** — Stay aware of current attacker tactics and malware trends
+- **Incident response** — Follow procedures to investigate and remediate incidents
 
-An **internal threat** can be a current or former employee, an external vendor, or a trusted partner who poses a security risk. At times, an internal threat is accidental. For example, an employee who accidentally clicks on a malicious email link would be considered an accidental threat. Other times, the internal threat actor intentionally engages in risky activities, such as unauthorized data access.
+---
 
-**Network security** is the practice of keeping an organization's network infrastructure secure from unauthorized access. This includes data, services, systems, and devices that are stored in an organization’s network.
+## 3. Tools Overview
 
-**Cloud security** is the process of ensuring that assets stored in the cloud are properly configured, or set up correctly, and access to those assets is limited to authorized users. The cloud is a network made up of a collection of servers or computers that store resources and data in remote physical locations known as data centers that can be accessed via the internet. Cloud security is a growing subfield of cybersecurity that specifically focuses on the protection of data, applications, and infrastructure in the cloud.
+| Tool | Purpose |
+|---|---|
+| **Python** | Automate repetitive tasks, reduce human error |
+| **SQL** | Query and interact with databases |
+| **Linux (CLI)** | Open-source OS used heavily in security workflows |
+| **SIEM Tools** | Aggregate logs, provide dashboards, alert on threats (cloud or on-premise) |
+| **Packet Sniffer / Network Protocol Analyzer** | Capture and analyze network traffic |
+| **IDS** | Scan packets and alert on possible intrusions |
+| **Antivirus / Anti-malware** | Detect and eliminate malware via memory pattern scanning |
+| **Penetration Testing** | Simulated attacks to identify vulnerabilities |
+| **Encryption** | Converts plaintext → ciphertext to protect data confidentiality |
 
-**Programming** is a process that can be used to create a specific set of instructions for a computer to execute tasks. These tasks can include:
+### Playbooks
+Manuals that guide analysts through security procedures step-by-step.
+- **Chain of Custody** — Documents evidence possession throughout an investigation
+- **Protecting & Preserving Evidence** — Prioritizes volatile data first; work from copies, not originals
 
-  * Automation of repetitive tasks (e.g., searching a list of malicious domains)
+---
 
-  * Reviewing web traffic 
+## 4. Ethics & Legal Considerations
 
-  * Alerting suspicious activity
+### Counterattacks
+- **US Law** — Counterattacks are **illegal** for civilians (Computer Fraud and Abuse Act 1986, Cybersecurity Information Sharing Act 2015). Only federal/military personnel are authorized.
+- **ICJ (International)** — Counterattacks are permissible only if: targeted only at the original attacker, intended as a stop-communication, non-escalatory, and reversible in effect.
+- In practice, organizations avoid counterattacks due to legal uncertainty and risk of escalation.
 
-Transferable skills
+### Ethical Principles
+- **Confidentiality** — Only authorized users access protected assets; respect privacy
+- **Privacy Protection** — Safeguard PII (name, phone) and SPII (SSN, credit card numbers)
+- **Laws** — Act honestly, transparently, and with respect for the law; stay informed
 
-You have probably developed many transferable skills through life experiences; some of those skills will help you thrive as a cybersecurity professional. These include:
+---
 
-* **Communication:** As a cybersecurity analyst, you will need to communicate and collaborate with others. Understanding others’ questions or concerns and communicating information clearly to individuals with technical and non-technical knowledge will help you mitigate security issues quickly. 
-  
-* **Problem-solving:** One of your main tasks as a cybersecurity analyst will be to proactively identify and solve problems. You can do this by recognizing attack patterns, then determining the most efficient solution to minimize risk. Don't be afraid to take risks, and try new things. Also, understand that it's rare to find a perfect solution to a problem. You’ll likely need to compromise.
-  
-* **Time management:** Having a heightened sense of urgency and prioritizing tasks appropriately is essential in the cybersecurity field. So, effective time management will help you minimize potential damage and risk to critical assets and data. Additionally, it will be important to prioritize tasks and stay focused on the most urgent issue.
-  
-* **Growth mindset:** This is an evolving industry, so an important transferable skill is a willingness to learn. Technology moves fast, and that's a great thing! It doesn't mean you will need to learn it all, but it does mean that you’ll need to continue to learn throughout your career. Fortunately, you will be able to apply much of what you learn in this program to your ongoing professional development.
-  
-* **Diverse perspectives:** The only way to go far is together. By having respect for each other and encouraging diverse perspectives and mutual respect, you’ll undoubtedly find multiple and better solutions to security problems. 
+## 5. Frameworks, Controls & Compliance
 
-## Technical skills
+### CIA Triad
+The three foundational principles guiding cybersecurity decisions: **Confidentiality, Integrity, Availability**.
 
-There are many technical skills that will help you be successful in the cybersecurity field. You’ll learn and practice these skills as you progress through the certificate program. Some of the tools and concepts you’ll need to use and be able to understand include: 
+### Key Frameworks
+- **NIST CSF / RMF** — Voluntary risk management frameworks widely used globally
+- **CIS Controls** — Actionable safeguards for systems and networks
 
-* **Programming languages:** By understanding how to use programming languages, cybersecurity analysts can automate tasks that would otherwise be very time consuming. Examples of tasks that programming can be used for include searching data to identify potential threats or organizing and analyzing information to identify patterns related to security issues. 
+### Major Compliance Standards
 
-* **Security information and event management (SIEM) tools:** SIEM tools collect and analyze log data, or records of events such as unusual login behavior, and support analysts’ ability to monitor critical activities in an organization. This helps cybersecurity professionals identify and analyze potential security threats, risks, and vulnerabilities more efficiently.
+| Standard | Scope |
+|---|---|
+| **FERC-NERC** | US/North American power grid security requirements |
+| **FedRAMP** | US federal cloud services security standardization |
+| **GDPR** | EU data privacy; 72-hour breach notification required |
+| **PCI DSS** | Securing credit card data globally; reduces fraud |
+| **HIPAA** | US patient health data protection (Privacy, Security, Breach Notification rules) |
+| **ISO** | International standards for technology and management processes |
+| **SOC 1 & 2** | Assess user access policies and financial compliance across org levels |
 
-* **Intrusion detection systems (IDSs):** Cybersecurity analysts use IDSs to monitor system activity and alerts for possible intrusions. It’s important to become familiar with IDSs because they’re a key tool that every organization uses to protect assets and data. For example, you might use an IDS to monitor networks for signs of malicious activity, like unauthorized access to a network.
+> **Tip:** Stay current on Gramm-Leach-Bliley Act and Sarbanes-Oxley Act as well.
 
-* **Threat landscape knowledge:** Being aware of current trends related to threat actors, malware, or threat methodologies is vital. This knowledge allows security teams to build stronger defenses against threat actor tactics and techniques. By staying up to date on attack trends and patterns, security professionals are better able to recognize when new types of threats emerge such as a new ransomware variant. 
+---
 
-* **Incident response:** Cybersecurity analysts need to be able to follow established policies and procedures to respond to incidents appropriately. For example, a security analyst might receive an alert about a possible malware attack, then follow the organization’s outlined procedures to start the incident response process. This could involve conducting an investigation to identify the root issue and establishing ways to remediate it.
+## 6. Threat Actors
 
-## Key takeaways
+| Type | Description |
+|---|---|
+| **APT (Advanced Persistent Threat)** | Highly skilled; targets large orgs/governments; stays hidden long-term; aims at infrastructure or IP |
+| **Insider Threat** | Authorized user who sabotages, corrupts, or leaks data |
+| **Hacktivist** | Politically motivated; uses hacking for propaganda or social change |
+| **Authorized Hacker** | Ethical hacker; conducts legal risk assessments |
+| **Semi-Authorized Hacker** | Finds vulnerabilities but doesn't exploit them (researchers) |
+| **Unauthorized Hacker** | Malicious; sells stolen data for profit |
+| **Unskilled / Script Kiddie** | Uses existing tools; motivated by learning, revenge, or curiosity |
 
-Understanding key technical terms and concepts used in the security field will help prepare you for your role as a security analyst. Knowing these terms can help you identify common threats, risks, and vulnerabilities. To explore a variety of cybersecurity terms, visit the [National Institute of Standards and Technology glossary](https://csrc.nist.gov/glossary).
+---
 
-Understanding the benefits of core transferable and technical skills can help prepare you to successfully enter the cybersecurity workforce. Throughout this program, you’ll have multiple opportunities to develop these and other key cybersecurity analyst skills.
+## 7. Attack Types
+
+### Password Attacks
+Attempt to gain access to password-protected systems.
+- **Brute Force** — Try all combinations
+- **Rainbow Table** — Use precomputed hash lookups
+
+### Social Engineering
+Exploits human trust and error rather than technical vulnerabilities.
+
+**Common tactics:**
+- **Phishing** — Deceptive emails to steal data/deploy malware
+- **Spear Phishing** — Targeted phishing at a specific user/group
+- **Whaling** — Spear phishing aimed at executives
+- **Vishing** — Voice-based phishing
+- **Smishing** — SMS-based phishing
+- **BEC (Business Email Compromise)** — Impersonates a trusted source for financial gain
+- **Watering Hole** — Compromises a site frequented by the target group
+- **USB Baiting** — Leaves infected USB for victim to plug in
+- **Physical Social Engineering** — Impersonates staff or vendors for physical access
+
+**Why it works:** Authority, intimidation, social proof, scarcity, familiarity, trust, and urgency.
+
+### Physical Attacks
+- Malicious USB cables/flash drives
+- Card cloning and skimming
+
+### Other Attack Types
+- **Adversarial AI** — Manipulates ML/AI systems to conduct attacks more efficiently
+- **Supply-Chain Attack** — Targets vendors/third parties to inject malware into legitimate products
+- **Cryptographic Attacks** — Breaks secure communication (Birthday, Collision, Downgrade attacks)
+
+---
+
+## 8. Malware Types
+
+| Type | How It Works |
+|---|---|
+| **Virus** | Requires user action to activate; hides in files and damages/destroys data |
+| **Worm** | Self-replicates and spreads across networks without user interaction |
+| **Ransomware** | Encrypts org data and demands payment for decryption |
+| **Spyware** | Silently collects personal data (emails, location, recordings) and sells it |
+
+---
+
+## 9. CISSP Security Domains (Brief Reference)
+
+Attacks map to specific domains:
+- **Security & Risk Management** — Social engineering, phishing
+- **Asset Security** — Physical attacks
+- **Communication & Network Security** — Password attacks, adversarial AI, cryptographic attacks
+- **Identity & Access Management** — Adversarial AI
+- **Security Architecture & Engineering** — Supply-chain attacks
+- **Security Operations** — Supply-chain, incident response
+
+---
+
+## Resources
+- [NIST Glossary](https://csrc.nist.gov/glossary)
+- [OWASP Top 10](https://owasp.org) — Critical web application risks
+- [CISA Free Tools](https://www.cisa.gov) — Open-source cybersecurity tools
+- [Tallinn Manual](https://ccdcoe.org/research/tallinn-manual/) — International cyber law guidance
