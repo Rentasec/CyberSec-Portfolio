@@ -1,5 +1,5 @@
 # Healthcare Breach Analysis: The 2018 SingHealth Cyber Attack
-**Analyst:** [Your Name]  
+**Analyst:** Anas Hilman Bin Johan 
 **Date:** [Date you complete this]  
 **Classification:** Portfolio — Public  
 **Status:** Draft v1.0
@@ -63,8 +63,7 @@ Jun 2018    → Malicious activity detected on 11, 12, 13, and 26 June — but n
 **Total dwell time: approximately 10 months.**
 
 🔍 **RESEARCH GAP 1 — Dwell time context**  
-*Research prompt:* The industry average dwell time (the period between an attacker gaining access and being detected) in healthcare has historically been very high. Look up what the average healthcare breach dwell time was in 2018. How does 10 months compare? What does a long dwell time tell you about the attacker's intent — were they after immediate financial gain, or something else? Write 3–4 sentences.  
-*Hint:* Consider why a nation-state actor would want to sit quietly inside a healthcare network for months rather than immediately exfiltrating data or deploying ransomware.
+According to the FireEye M-Trends 2019 report, the global median dwell time for breaches within the healthcare industry was 78 days globally. In contrast, SingHealth's 10 month dwell time was significantly higher. SingHealth's position as Singapore's largest healthcare organization grants it access to a large amount of SPII, including that of the nation's Prime Minister. This correlates with the statement from the Committee of Inquiry that noted that records of the Prime Minister was specifically and repeatedly targeted, suggesting a political motive rather than a financial one.
 
 ---
 
