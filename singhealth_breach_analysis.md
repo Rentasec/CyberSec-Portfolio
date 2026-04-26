@@ -1,5 +1,5 @@
 # Healthcare Breach Analysis: The 2018 SingHealth Cyber Attack
-**Analyst:** Anas Hilman Bin Johan 
+**Analyst:** 
 **Date:** [Date you complete this]  
 **Classification:** Portfolio — Public  
 **Status:** Draft v1.0
@@ -86,7 +86,7 @@ To achieve this, the attacker:
 - Escalated privileges to gain **administrative access** to internal systems
 
 🔍 **RESEARCH GAP 3 — What is lateral movement, and why is it hard to stop?**  
-*Research prompt:* Look up "lateral movement" in the context of the MITRE ATT&CK framework (attack.mitre.org). Find 2–3 specific techniques the SingHealth attacker likely used (credential dumping, pass-the-hash, or similar). Write a 3–4 sentence explanation of why lateral movement is difficult to detect in a large hospital network specifically — think about the number of devices, legacy systems, and the fact that clinicians legitimately move between terminals.
+Lateral movement is when an attacker gains access to a network and moves laterally within the network to remain hidden from detection. This tactic enables them to explore the network to find their target then pivot through multiple different systems to gain access to it. The attackers may have used a technique like internal spearphishing, where they impersonate other employees to target employees with administrative access to internal systems. Another possible technique used by the attackers could have been exploitation of remote service where attackers take advantage of remote services to gain unauthorized access to internal systems.
 
 ### 4.3 Exfiltration
 
