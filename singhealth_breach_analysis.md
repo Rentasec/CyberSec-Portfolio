@@ -95,7 +95,7 @@ Between 27 June and 4 July 2018, the attacker executed **SQL queries** directly 
 The data was exfiltrated to a **command and control (C2) server** located outside Singapore. Defenders had actually detected **callback traffic** from workstations to suspicious foreign IP addresses — but did not connect this to an active breach in time.
 
 🔍 **RESEARCH GAP 4 — SQL queries as an attack tool**  
-*Research prompt:* You will cover SQL in Course 3 and 4 of the Google cert. For now, research what a "bulk SQL query" looks like in the context of a database exfiltration attack. Why would running large queries against a patient database at unusual hours be a detectable anomaly? What kind of SIEM alert or database activity monitoring rule would have flagged this? Write 3–4 sentences — you don't need technical SQL knowledge yet, just the conceptual understanding.
+An attacker can inject bulk commands through web forms and API endpoints to attack the SQL database. Large queries cause resource spikes which are extremely noticeable especially when performed at unusual hours. SIEM tools have a baseline on the normal values of queries during specific times depending on the organization's historical access times.
 
 ---
 
