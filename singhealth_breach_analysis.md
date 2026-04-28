@@ -112,8 +112,7 @@ The CIA triad — **Confidentiality, Integrity, and Availability** — is the fo
 The personal data of 1.5 million patients — including names, identification numbers, addresses, and medical prescription records — was exfiltrated to an external party. The patients had no knowledge this was occurring and had not consented to this disclosure.
 
 🔍 **RESEARCH GAP 5 — What makes healthcare data uniquely sensitive**  
-*Research prompt:* Healthcare records are consistently valued higher on dark web markets than financial records. Research why this is the case. What can an attacker *do* with a patient's name, NRIC number, address, and prescription details that they cannot do with a stolen credit card number? Write a paragraph. Then add a sentence connecting this to Malaysia's PDPA — what obligation does a Malaysian private hospital have when a patient's data is breached?  
-*Hint:* Think about identity fraud, insurance fraud, and targeted social engineering. Your healthcare background makes you well-placed to reason about this.*
+The attackers often value healthcare records as the private information can be used for identity theft and or medical fraud. These could lead to financial loses from fraudulent medical bills as well as ruin the victim's credit and reputation. As opposed to a stolen credit card number, healthcare records contain enough sensitive information for a malicious actor to assume the victim's identity. This could allow them to do things like take out loans under the victim's name and even insurance fraud. In Malaysia, the healthcare facility is responsible for any healthcare record that is compromised. Failure to protect said records may lead to legal consequences.
 
 ### 5.2 Integrity
 
