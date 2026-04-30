@@ -121,7 +121,8 @@ The attackers often value healthcare records as the private information can be u
 The COI report found no evidence that patient records were **modified** during the attack. The attacker's behaviour was consistent with read-only access — their goal was exfiltration, not manipulation.
 
 🔍 **RESEARCH GAP 6 — Why data integrity matters more in healthcare than almost any other sector**  
-*Research prompt:* Imagine a scenario where an attacker had *modified* rather than copied patient records — changing a blood type, a medication dosage, an allergy flag. Write a short paragraph on what the patient safety consequences could be. This is not a hypothetical threat: research "medical record tampering cyberattack" and find at least one real-world case where integrity was at risk. Why does this make the integrity pillar arguably *more* important in healthcare than in finance or retail?
+Changing the medical information on a patient's healthcare record could cause misdiagnosis or mistreatment. Both of which could cause catastrophic consequences to the patient. A patient could be allergic to a medication or react negatively to certain treatment plans. The severity of effect due to a lack of integrity within healthcare data is what makes integrity so important compared to other sectors.
+
 
 ### 5.3 Availability
 
