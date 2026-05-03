@@ -154,7 +154,7 @@ Cybersecurity is a shared responsibility. An attacker can attack from a majority
 - **Meetings between security management were not held regularly**, meaning no forum existed to connect the dots between individual anomalies
 
 🔍 **RESEARCH GAP 8 — NIST CSF and the "Respond" function**  
-*Research prompt:* Go to the NIST Cybersecurity Framework 2.0 summary (available free at nist.gov). Look at the five core functions: Govern, Identify, Protect, Detect, Respond, Recover. The COI report's findings map directly onto weaknesses in several of these. Identify which two functions were most severely neglected in the SingHealth case and explain why in 3–4 sentences. This is a direct interview question for any cybersecurity or GRC role.
+The NIST Cybersecurity Framework 2.0 consists of five core functions: Govern, Identify, Protect, Detect, Respond, Recover. The COI report's findings map directly onto weaknesses in several of these, namely, the Govern function. As per the NIST CSF,*The organization’s cybersecurity risk management strategy,expectations, and policy are established, communicated, and monitored.* The failure of SingHealth to properly communicate and manage their cybersecurity strategy is what caused the attack to snowball from what it would have initially been. Additionally, the Protect function was also severely neglected as management failed to provide proper training and awareness on the roles that each employee plays in ensuring data security.
 
 ### 6.3 Technology Failures
 
