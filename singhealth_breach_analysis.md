@@ -178,7 +178,8 @@ The SingHealth breach occurred in Singapore, not Malaysia. But its lessons trans
 3. The **threat actor landscape** does not respect national borders — the same APT groups active in Singapore are active across Southeast Asia
 
 🔍 **RESEARCH GAP 10 — Malaysia's PDPA and healthcare breach obligations**  
-*Research prompt:* Research Malaysia's Personal Data Protection Act 2010 and its 2024 Amendment. Specifically find: (1) what obligation a Malaysian healthcare organisation has to notify patients and regulators after a breach, (2) what the maximum fine for non-compliance is, and (3) whether Malaysia has a specific cybersecurity framework for the healthcare sector. Write a short paragraph. This directly supports your positioning as a healthcare cybersecurity specialist in the Malaysian market.
+The Personal Data Protection (Amendment) Act 2024 transforms how Malaysian healthcare providers manage patient information. Organizations now face a legal mandate to report data breaches to the Commissioner within 72 hours. This strict timeline forces clinics and hospitals to maintain rigorous internal monitoring systems. If a breach poses a high risk to individuals, the patients themselves must be notified immediately to prevent further harm. Failing to meet these standards carries heavy consequences as the maximum fine has increased to one million Ringgit. Furthermore, because healthcare is considered critical infrastructure, it must adhere to the oversight of the National Cyber Security Agency. These collective updates bridge the gap between local policy and global data privacy standards.
+
 
 ---
 
@@ -192,8 +193,8 @@ This section is your synthesis. Based on the failures identified above, list the
 | Regular patch management with a defined exception process | The unpatched server vulnerability could not have been exploited | Critical |
 | Network segmentation between front-end workstations and the EHR database | Lateral movement from compromised workstation to SCM would have been blocked | High |
 | SIEM with anomaly detection rules for bulk database queries | Exfiltration queries on 27 June–4 July would have triggered an alert | High |
-| 🔍 [You add two more rows] | 🔍 [Research and fill in] | 🔍 |
-| 🔍 [You add two more rows] | 🔍 [Research and fill in] | 🔍 |
+| Periodical security awareness training | Could have prevented phishing attacks through security-alert employees. | High |
+| Implement and automated escalation pathway | The minor security incident that started the issue could have been properly escalated. | Medium |
 
 *Hint for the rows you're adding: look at the people and process failures in Section 6. Not all controls are technical.*
 
@@ -202,17 +203,10 @@ This section is your synthesis. Based on the failures identified above, list the
 ## 9. Analyst's Reflection
 
 🔍 **RESEARCH GAP 11 — Your own synthesis (most important gap)**  
+The single failure that was not only the most preventable, but also the one that has the most significant impact in preventing a similar incident is the vulnerability of the employees to phishing attacks and/or social engineering tactics. Understandably, the hospital environment is stressful and fast-paced; hospital staff have a lot on their plate especially if it's a particularly busy day. During my time working within the healthcare industry, I had to go in and out of dozens of different hospitals. Of course, they had security and countermeasures preventing you from gaining access to certain areas, but I had also noticed a few exploitable gaps here and there that one could easily gain access to with a bit charm. An average hospital staff normally wouldn't even consider someone malicious would attempt to gain access into the organization; especially if they are impersonating an autharitive figure. Similar to the root cause of the cyber attack, the majority of employees just are not aware of the many attack methods malicious actors could take advantage of. Hence the mindset that cybersecurity issues are the sole responsibility of the tech team. If I were a newly hired cybersecurity analyst at a Malaysian private hospital, my first course of action would be to take note of the department that deals with email the most as they would be the most susceptible to phishing attacks.
 *This section is entirely yours to write.*
 
-Write 2–3 paragraphs reflecting on the following:
 
-1. Which single failure in this breach do you think was most preventable, and why? (There is no correct answer — your reasoning matters more than your conclusion.)
-
-2. As someone with a healthcare background who is transitioning into cybersecurity, what do you notice about this case that a purely technical analyst might overlook? What does working in a hospital teach you about *why* these failures happen, that you can't learn from a textbook?
-
-3. If you were the newly hired cybersecurity analyst at a Malaysian private hospital tomorrow, what is the first thing you would check, based on what you've read here?
-
-*This section is what makes the analysis yours. It is the section a recruiter will actually read.*
 
 ---
 
