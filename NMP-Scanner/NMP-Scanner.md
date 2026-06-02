@@ -31,3 +31,47 @@ This Python script functions as a wrapper and coordinator around the core Nmap a
 Install the required dependency libraries using pip:
 ```bash
 pip install python-nmap requests reportlab
+```
+
+---
+
+## 💻 Usage
+Run the script from your terminal by providing a target scope. The script automatically determines whether you're scanning a single machine or an entire network subnet.
+
+### Basic Network Scan
+```bash
+python vuln_scanner.py 192.168.1.1
+```
+### Full Multi-Host Subnet Scan
+Bash
+python vuln_scanner.py 192.168.1.0/24
+
+### Deep Vulnerability Scan with Vulners API Key
+To query exact application versions for known vulnerabilities (CVEs), feed your API key into the command line argument:
+```bash
+python vuln_scanner.py scanme.nmap.org --api-key YOUR_VULNERS_API_KEY
+```
+### Specifying a Custom Output Destination
+```bash
+python vuln_scanner.py 127.0.0.1 --output home_test_audit.pdf
+```
+
+---
+
+## 📊 Report Architecture
+The report is systematically sectioned to bridge raw technical findings with clear executive highlights:
+
+* **Target Meta-Data Block:** Tracks scan date, duration, target scope limits, and live host counts.
+
+* **Global Risk Matrix Summary:** A high-level visual color-blocked grid aggregating criticalities (HIGH, MEDIUM, LOW, INFO) to give an immediate posture overview.
+
+* **Host Enumeration Matrix:** A quick-reference inventory mapping out exactly which IPs are alive, their hostnames, detected ports, and best-guess OS.
+
+* **Detailed Findings Panels:** Granular deep-dives into detected risks complete with customized remediation actions, software version descriptions, and references.
+
+* **Cryptographic Configuration Logs:** Advanced tables mapping SSL/TLS handshakes, negotiated cipher strings, bit-lengths, common names, and valid certificate dates.
+
+---
+
+## ⚖️ Disclaimer
+*This tool is intended strictly for authorized security auditing, network troubleshooting, and educational purposes. Ensure you have explicit permission from the asset owner before executing scans against any network infrastructure.*
