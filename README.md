@@ -3,7 +3,9 @@
 *This repository shall act as a space for me to keep track of the various notes and assignments given throughout my journey in learning cybersecurity. Notes from each course will be updated as I go through Google's Cybersecurity Course. Additionally, the course's portfolio assignments will also be added into this repository eventually as well.*
 
 ---
-
+## Personal Projects!
+### Network Vulnerability Assessment Scanner and Report Generator
+The [NMP Scanner](NMP-Scanner) lightweight, automated infrastructure reconnaissance and security auditing tool written in Python. This tool combines rapid network port scanning via **Nmap** with remote **SSL/TLS** configuration audits and threat intelligence lookups via the *Vulners API* to aggregate point-in-time telemetry into a polished, modern, dark-themed executive PDF report.
 ## 01 · Security Audits & Compliance
 
 **Skills gained:** Conducting internal security audits, evaluating controls against compliance frameworks (PCI DSS, GDPR, SOC), identifying gaps in administrative, technical, and physical controls, and producing structured audit reports.
